@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:lts-alpine3.12
 
 # Set up insecure default key
 RUN mkdir -m 0750 /root/.android
